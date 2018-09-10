@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>今日のお留守番リーダー</title>
+</head>
+<body>
+    <main>
+            <div class="title">
+                <h1>今日のお留守番リーダー</h1>
+            </div>
+            <div class="image">
+                <img id="leader" src="images/IMG_0985.JPG" alt="お留守番リーダー">
+            </div>
+            <div class="button">
+                <div id="btn">任命する</div>
+            </div>
+            <p class="text">今日のお留守番リーダーは</p>
+            <div class="result-text">
+              <p id="results"></p>
+            </div>
+    </main>
+
+    <script src="orusuban.js"></script>
+
+</body>
+</html>
